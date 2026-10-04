@@ -2,19 +2,18 @@
 #
 # 用法 / usage:
 #   1. fork https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
-#   2. 把本文件以 data/plugins/<owner>__dsh-skill-hub.yml 为名放进仓库
-#      （<owner> 换成你的 GitHub 用户名，双下划线分隔）
-#   3. 提 PR（仓库需已创建满 1 天；README 是生成的，不要手改）
+#   2. 把本文件以 data/plugins/hoshino114__dsh-skill-hub.yml 为名放进仓库
+#   3. 提 PR（⚠️ 仓库需创建满 1 天，2026-10-05 之后再提；README 是生成的，不要手改）
 #
 # 要求核对 / requirements checklist:
 #   [x] package.json 声明 dsh.bundle + cordis.patch.yml（可 dsh plugin add 安装）
 #   [x] 真实可用代码
-#   [ ] 仓库创建满 1 天（CI 自动检查）
-#   [ ] 仓库添加 dsh-plugin topic（GitHub 仓库页 → topics）
+#   [ ] 仓库创建满 1 天（CI 自动检查）→ 2026-10-05 起满足
+#   [x] 仓库添加 dsh-plugin topic（已添加）
 #   [x] 描述只写功能、与代码一致（无营销词）
 
-url: https://github.com/<owner>/dsh-skill-hub
-name: <owner>/dsh-skill-hub
+url: https://github.com/hoshino114/dsh-skill-hub
+name: hoshino114/dsh-skill-hub
 category: skill
 description:
   en: 'Skill center: browse and manage local Agent Skills, and search, preview and install skills from the ClawHub, ModelScope and QwenPaw marketplaces in one merged view with source and category filters; ships a `skill_hub` tool so the agent can install skills itself.'
