@@ -7,3 +7,5 @@ tmp-asar/
 Thumbs.db
 .env
 .env.*
+.gh-token
+*.token
