@@ -1,0 +1,5 @@
+# dsh-skill-hub bundle patch: inserts this plugin into a profile's layer stack.
+# Applied as a profile layer in dsh.profile.bundles order.
+- insert:
+    - id: skill-hub
+      name: 'dsh-skill-hub'
